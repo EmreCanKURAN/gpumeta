@@ -12,6 +12,7 @@ The paper introduces two selection operators for population-based metaheuristics
 Boundary-safe versions of both kernels work for any population size, and a migration rate ρ controls how often a thread also compares its winner with the global best. The operators are evaluated inside six algorithms (ABC, GWO, WOA, SCA, SSA, HHO) written as native CUDA kernels and compared with single-threaded and multi-threaded CPU implementations.
 
 This repository contains the kernels, the CPU implementations and one script for every experiment of the paper.
+> **Looking for a library to use on your own problems?** The operators and algorithms of this repository are available as a general-purpose Python package, [pygpumeta](https://pypi.org/project/pygpumeta/) (`pip install pygpumeta`, source: [EmreCanKURAN/pygpumeta-dev](https://github.com/EmreCanKURAN/pygpumeta-dev)). This repository only reproduces the experiments of the paper and is kept unchanged for that purpose.
 
 ## Layout
 
