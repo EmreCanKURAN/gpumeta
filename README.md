@@ -129,7 +129,8 @@ print(res['best'], res['time_ms'])
   title   = {Register-Level Selection via Warp Primitives: Shuffle-Based Tournament and
              Ballot-Elite Mechanisms for {GPU}-Accelerated Metaheuristics},
   journal = {Swarm and Evolutionary Computation},
-  year    = {2026}
+  year    = {2026},
+  doi     = {10.1016/j.swevo.2026.102633}
 }
 ```
 
